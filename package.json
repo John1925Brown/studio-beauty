@@ -1,0 +1,27 @@
+{
+  "name": "beauty-salon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John1925Brown/studio-beauty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John1925Brown/studio-beauty/issues"
+  },
+  "homepage": "https://github.com/John1925Brown/studio-beauty#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-path": "^1.0.0"
+  }
+}
