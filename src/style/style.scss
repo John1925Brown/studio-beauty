@@ -1,3 +1,6 @@
-body {
-  font-size: 12px;
-}
+@import url("./_normalize.scss");
+@import url("./_fonts.scss");
+@import url("./_settings.scss");
+@import url("./_header.scss");
+
+@import url("./_media.scss");
