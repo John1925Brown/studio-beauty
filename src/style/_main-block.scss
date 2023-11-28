@@ -1,0 +1,33 @@
+.main {
+  margin-bottom: 60px;
+  background: no-repeat center url("../../img/main-background.png");
+  background-size: cover;
+}
+
+.main__wrapper {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Garamond";
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin: 90px 0 120px 0;
+}
+
+.scroll {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll__text {
+  margin-left: 10px;
+  font-size: 0.775rem;
+  font-weight: bold;
+}
+.scroll__img {
+  height: 20px;
+  width: 15px;
+}
