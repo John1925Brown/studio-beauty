@@ -1,14 +1,25 @@
 /* media header*/
 @media (min-width: 720px) {
+  .container__menu--mobile {
+    display: none;
+  }
   .header {
     font-size: 1.125rem;
-    display: block;
+    .wrapper--80 {
+      display: block;
+    }
+  }
+  .nav__item {
+    margin-right: 5px;
+    &:last-child {
+      margin-right: 0px;
+    }
   }
 }
 
 @media (min-width: 920px) and (max-width: 1079px) {
   .container {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 30px 0;
   }
   .nav__item {
     margin-right: 20px;
@@ -42,3 +53,39 @@
   }
 }
 
+/* media main*/
+@media (min-width: 420px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 560px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: 120px 0 170px 0;
+  }
+}
+
+@media (min-width: 1080px) {
+  h1 {
+    font-size: 3rem;
+    margin: 250px 0 250px 0;
+  }
+  .scroll__text {
+    font-size: 1.2rem;
+  }
+  .scroll__img {
+    height: 30px;
+    width: 20px;
+  }
+}
